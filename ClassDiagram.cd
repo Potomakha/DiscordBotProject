@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DiscordBotProject.Modules.Configuration" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABggAEAAAAAAAgAAAgAAAACAgCIAAAAgAAAAAgBAAA=</HashCode>
+      <FileName>Modules\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Modules.Fun" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Fun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Modules.General" Collapsed="true">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAACAAAAAEAAAAAAICAAABAAAAAAAkABAAA=</HashCode>
+      <FileName>Modules\General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Modules.Moderation" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modules\Moderation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Services.CommandHandler" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIAKAAAAAAACAEAQBAAAAAAAEACAIAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Services\CommandHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Services.StartupService" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAKAAAAAAAAAAAAAAAAAAAAAAIAAAAAAQAAABAAAAA=</HashCode>
+      <FileName>Services\StartupService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Utilities.AutoRolesHelper" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\AutoRolesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Utilities.Images" Collapsed="true">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAAAAAAAAAAAAAAAKAAAAABAAAAAAAAAgA=</HashCode>
+      <FileName>Utilities\Images.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Utilities.RanksHelper" Collapsed="true">
+    <Position X="1.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Utilities\RanksHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DiscordBotProject.Program" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

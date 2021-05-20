@@ -10,6 +10,8 @@ using Discord;
 using Discord.Addons.Hosting;
 using Discord.Commands;
 using DiscordBotProject.Services;
+using Infrastructure;
+using DiscordBotProject.Utilities;
 
 namespace DiscordBotProject
 {
@@ -17,7 +19,7 @@ namespace DiscordBotProject
     {
         //public static async Task Main(string[] args)
         //    => await Startup.RunAsync(args);
-        public static async Task Main()
+        static async Task Main()
         {
             var builder = new HostBuilder()
                 .ConfigureAppConfiguration(x =>
@@ -49,14 +51,23 @@ namespace DiscordBotProject
                     config = new CommandServiceConfig()
                     {
                         CaseSensitiveCommands = false,
-                        LogLevel = LogSeverity.Verbose
+                        LogLevel = LogSeverity.Verbose,
                     };
                 })
                 .ConfigureServices((context, services) =>
                 {
-                    services.AddHostedService<CommandHandler>();
+                    services
+                    .AddHostedService<CommandHandler>()
+                    .AddDbContext<Context>()
+                    .AddSingleton<Servers>()
+                    .AddSingleton<Images>()
+                    .AddSingleton<Ranks>()
+                    .AddSingleton<AutoRoles>()
+                    .AddSingleton<RanksHelper>()
+                    .AddSingleton<AutoRolesHelper>();
                 })
                 .UseConsoleLifetime();
+
 
             var host = builder.Build();
             using(host)
