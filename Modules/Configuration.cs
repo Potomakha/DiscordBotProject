@@ -283,11 +283,7 @@ namespace DiscordBotProject.Modules
 
             await ReplyAsync("You did not use this command property.");
         }
-        [Command("newcommand")]
-        public async Task NewCommand()
-        {
-            await Context.Channel.TriggerTypingAsync();
-            await ReplyAsync("do nithing");
-        }
+            await ReplyAsync("do nоthing");
+
     }
 }
