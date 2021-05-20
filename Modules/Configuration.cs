@@ -283,7 +283,5 @@ namespace DiscordBotProject.Modules
 
             await ReplyAsync("You did not use this command property.");
         }
-            await ReplyAsync("do nоthing");
-
     }
 }
